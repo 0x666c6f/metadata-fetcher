@@ -1,0 +1,25 @@
+{
+  "name": "ubisoft-metadata-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianpautot/ubisoft-metadata-fetcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianpautot/ubisoft-metadata-fetcher/issues"
+  },
+  "homepage": "https://github.com/florianpautot/ubisoft-metadata-fetcher#readme",
+  "dependencies": {
+    "@taquito/taquito": "^11.0.2",
+    "axios": "^0.24.0"
+  }
+}
